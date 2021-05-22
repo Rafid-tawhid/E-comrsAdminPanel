@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "585352699103",
+    "firebase_url": "https://datasend-af343.firebaseio.com",
+    "project_id": "datasend-af343",
+    "storage_bucket": "datasend-af343.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585352699103:android:a02b88ded396408cd59d6a",
+        "android_client_info": {
+          "package_name": "com.example.adminpanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585352699103-bnh49bp1h7snna9biklbu1rkhrhedj54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ucFNr9K5G3XiaDvohJuENAt8oRVa4G4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585352699103-bnh49bp1h7snna9biklbu1rkhrhedj54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585352699103:android:d890c0d5bbdd5f39d59d6a",
+        "android_client_info": {
+          "package_name": "com.example.homepage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585352699103-bnh49bp1h7snna9biklbu1rkhrhedj54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ucFNr9K5G3XiaDvohJuENAt8oRVa4G4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585352699103-bnh49bp1h7snna9biklbu1rkhrhedj54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585352699103:android:adb70f38eec94fa7d59d6a",
+        "android_client_info": {
+          "package_name": "com.example.sensors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585352699103-bnh49bp1h7snna9biklbu1rkhrhedj54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ucFNr9K5G3XiaDvohJuENAt8oRVa4G4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585352699103-bnh49bp1h7snna9biklbu1rkhrhedj54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

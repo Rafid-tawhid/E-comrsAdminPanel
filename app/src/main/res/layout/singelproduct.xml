@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ed_bg"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:id="@+id/img1"
+        android:padding="3dp"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:id="@+id/image1"
+            android:adjustViewBounds="true"
+            android:fitsSystemWindows="true"
+
+
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEW"
+
+            android:textColor="@color/white"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/new_ed_bg"
+            android:textSize="8dp"
+            android:id="@+id/neww2"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/love2"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="89dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toRightOf="@+id/neww2"
+            android:drawableRight="@drawable/love"
+            android:textSize="8dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$120.55"
+
+            android:layout_marginLeft="15dp"
+            android:textColor="#FF0200"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="200dp"
+            android:textSize="12dp"
+            android:id="@+id/price2">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T-Shirt"
+            android:layout_below="@id/price2"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:id="@+id/type2"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+
+            android:textSize="12dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XS S M L XM "
+            android:layout_below="@id/type2"
+            android:layout_marginLeft="15dp"
+            android:textColor="#706D6D"
+            android:textSize="8dp">
+
+        </TextView>
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/cart2"
+            android:layout_below="@+id/love2"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="200dp"
+
+            ></ImageView>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

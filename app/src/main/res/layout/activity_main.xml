@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:id="@+id/first"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Upload"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="#673AB7"
+
+            android:layout_margin="5dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+
+
+            ></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Orders"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:gravity="center"
+
+            android:id="@+id/orderId"
+            android:layout_margin="5dp"
+
+            android:textColor="#673AB7"
+            android:fontFamily="sans-serif-medium"
+
+
+            ></TextView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_above="@+id/pName"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="35dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:id="@+id/orderCount"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:background="@drawable/cart_item"
+            android:text="1"
+            tools:ignore="NotSibling"></TextView>
+    </RelativeLayout>
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/first"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+
+        tools:context=".Activity.UploadImageActivity">
+
+
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="330dp"
+            android:layout_margin="6dp"
+            android:layout_height="40dp"
+            android:id="@+id/pName"
+            android:layout_gravity="center"
+            android:background="@drawable/ed_bg"
+            android:paddingLeft="5dp"
+
+            android:drawableLeft="@drawable/product"
+            android:drawablePadding="5dp"
+
+            android:hint="Product Name">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <Spinner
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/ed_bg"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/type"
+            android:drawablePadding="5dp"
+            android:id="@+id/spinner"
+
+            ></Spinner>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="330dp"
+            android:layout_margin="6dp"
+            android:layout_height="100dp"
+            android:id="@+id/pDetails"
+            android:background="@drawable/ed_bg"
+            android:paddingLeft="5dp"
+            android:drawableLeft="@drawable/details"
+            android:drawablePadding="5dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="center"
+
+            android:hint="Product Details"
+            tools:ignore="RtlCompat">
+
+        </com.google.android.material.textfield.TextInputEditText>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="330dp"
+            android:layout_margin="6dp"
+            android:layout_height="40dp"
+            android:id="@+id/pPrice"
+            android:layout_gravity="center"
+            android:background="@drawable/ed_bg"
+            android:paddingLeft="5dp"
+            android:drawableLeft="@drawable/price"
+            android:drawablePadding="5dp"
+
+            android:hint="Product Price">
+
+        </com.google.android.material.textfield.TextInputEditText>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chose Image"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/btn_bg2"
+            android:layout_margin="5dp"
+            android:shadowRadius="20"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:id="@+id/pimg"
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/showImg"
+            android:background="@drawable/ed_bg"
+            android:layout_gravity="center"
+            ></ImageView>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_margin="17dp"
+            android:id="@+id/progressbarid"
+            >
+
+        </ProgressBar>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg2"
+            android:layout_margin="5dp"
+            android:shadowRadius="20"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:id="@+id/pUpload"
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pMsg"
+            android:gravity="center"
+            android:text="Show Products"
+            android:textColor="@color/purple_500"
+            android:textAlignment="center"
+            android:textSize="26dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="100dp"
+            ></TextView>
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
